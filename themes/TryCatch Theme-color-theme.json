@@ -3,18 +3,18 @@
 	"name": "TryCatch Theme",
 	"colors": {
 	  // Configuración de colores de la interfaz de usuario
-	  "editor.background": "#85877C", // Establece el color de fondo del editor de código.
+	  "editor.background": "#232122", // Establece el color de fondo del editor de código.
 	  "editor.foreground": "#F2F2F2", // Define el color del texto en el editor de código.
 	  "activityBarBadge.foreground": "#EDF2C2", // Color del número de notificaciones en la barra de actividad.
-	  "activityBarBadge.background": "#232122", // Color de fondo de los indicadores de actividad.
-	  "sideBarTitle.foreground": "#B5B5B5", // Color del título en la barra lateral.
+	  "activityBarBadge.background": "#575656", // Color de fondo de los indicadores de actividad.
+	  "sideBarTitle.foreground": "#f8f8f8", // Color del título en la barra lateral.
 	  "editor.lineHighlightBackground": "#474646", // Color de fondo del resaltado de línea.
-	  "editorCursor.foreground": "#A2F2F2", // Color del cursor en el editor.
+	  "editorCursor.foreground": "#F6FFC8", // Color del cursor en el editor.
 	  "editor.selectionBackground": "#C0BDBD", // Color de fondo de la selección de texto.
 	  "activityBar.background": "#232122", // Color de fondo de la barra de actividad.
-	  "activityBar.foreground": "#EDF2C2", // Color del texto en la barra de actividad.
-	  "sideBar.background": "#474646", // Color de fondo de la barra lateral.
-	  "sideBar.foreground": "#F2F2F2", // Color del texto en la barra lateral.
+	  "activityBar.foreground": "#F2FFAD", // Color del texto en la barra de actividad.
+	  "sideBar.background": "#383738", // Color de fondo de la barra lateral.
+	  "sideBar.foreground": "#EDEDED", // Color del texto en la barra lateral.
 	  "statusBar.background": "#232122", // Color de fondo de la barra de estado.
 	  "statusBar.foreground": "#EDF2C2", // Color del texto en la barra de estado.
 	  "statusBar.noFolderBackground": "#474646", // Color de fondo de la barra de estado cuando no hay carpeta abierta.
@@ -23,7 +23,7 @@
 	  "titleBar.activeForeground": "#F2F2F2", // Color del texto en la barra de título cuando la ventana está activa.
 	  "titleBar.inactiveBackground": "#474646", // Color de fondo de la barra de título cuando la ventana no está activa.
 	  "titleBar.inactiveForeground": "#B5B5B5", // Color del texto en la barra de título cuando la ventana no está activa.
-	  "badge.background": "#EB2E2E", // Color de fondo de los distintivos, como los errores en los archivos.
+	  "badge.background": "#647171", // Color de fondo de los distintivos, como los errores en los archivos.
 	},
 	"tokenColors": [
 	  // Configuración de estilos para elementos de sintaxis en el código
@@ -32,22 +32,15 @@
 		"scope": ["comment", "punctuation.definition.comment"],
 		"settings": {
 		  "fontStyle": "italic",
-		  "foreground": "#5a5a5a"
+		  "foreground": "#766E6E"
 		}
 	  },
-	  {
-		"name": "Variables",
-		"scope": ["variable", "string constant.other.placeholder"],
-		"settings": {
-		  "foreground": "#EDF2C2"
-		}
-	  },
-	  {
-		"name": "Functions",
-		"scope": "entity.name.function",
-		"settings": {
-		  "foreground": "#e9ff78" // Cambia el color de las funciones a azul
-		}
-		},
+	//   {
+	// 	"name": "Variable",
+	// 	"scope": ["variable", "variable.parameter"],
+	// 	"settings": {
+	// 	  "foreground": "#ff4800" // Cambia el color de las variables a un tono de salmón (ejemplo)
+	// 	}
+	//   }
 	]
 	}
