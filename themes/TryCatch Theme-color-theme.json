@@ -24,6 +24,7 @@
 	  "titleBar.inactiveBackground": "#474646", // Color de fondo de la barra de título cuando la ventana no está activa.
 	  "titleBar.inactiveForeground": "#B5B5B5", // Color del texto en la barra de título cuando la ventana no está activa.
 	  "badge.background": "#647171", // Color de fondo de los distintivos, como los errores en los archivos.
+	
 	},
 	"tokenColors": [
 	  // Configuración de estilos para elementos de sintaxis en el código
@@ -35,12 +36,35 @@
 		  "foreground": "#766E6E"
 		}
 	  },
-	//   {
-	// 	"name": "Variable",
-	// 	"scope": ["variable", "variable.parameter"],
-	// 	"settings": {
-	// 	  "foreground": "#ff4800" // Cambia el color de las variables a un tono de salmón (ejemplo)
-	// 	}
-	//   }
-	]
+	  {
+		"name": "Function and Storage",
+		"scope": ["function", "support.function.builtin", "storage", "storage.type"],
+		"settings": {
+		  "foreground": "#E7F670"
+		}
+	  },
+	  {
+		"name": "Strings",
+		"scope": ["string", "string.quoted.single"],
+		"settings": {
+		  "foreground": "#E89E00"
+		}
+	  },
+	  {
+		"name": "Keywords and Types",
+		"scope": ["keyword", "keyword.control.flow", "type", "support.type"],
+		"settings": {
+		  "foreground": "#3CD9E3"
+		}
+	  },
+	  {
+		"name": "Type",
+		"scope": ["type", "support.type"],
+		"settings": {
+		  "foreground": "#DF4E4E"
+		}
+	  }
+	],
+
+
 	}
