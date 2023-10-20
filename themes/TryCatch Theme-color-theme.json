@@ -30,40 +30,83 @@
 	  // Configuración de estilos para elementos de sintaxis en el código
 	  {
 		"name": "Comment",
-		"scope": ["comment", "punctuation.definition.comment"],
+		"scope": ["comment", "punctuation.definition.comment", "string.quoted.docstring.multi.python"],
 		"settings": {
 		  "fontStyle": "italic",
-		  "foreground": "#766E6E"
+		  "foreground": "#6B706D"
 		}
 	  },
 	  {
 		"name": "Function and Storage",
 		"scope": ["function", "support.function.builtin", "storage", "storage.type"],
 		"settings": {
-		  "foreground": "#E7F670"
+		  "foreground": "#eef890"
 		}
 	  },
 	  {
 		"name": "Strings",
 		"scope": ["string", "string.quoted.single"],
 		"settings": {
-		  "foreground": "#E89E00"
+		  "foreground": "#D2B48C"
 		}
 	  },
 	  {
 		"name": "Keywords and Types",
 		"scope": ["keyword", "keyword.control.flow", "type", "support.type"],
 		"settings": {
-		  "foreground": "#3CD9E3"
-		}
+		  "foreground": "#A2F2F2"
+		},
 	  },
 	  {
 		"name": "Type",
 		"scope": ["type", "support.type"],
 		"settings": {
-		  "foreground": "#DF4E4E"
+		  "foreground": "#00CED1"
+		}
+	  },
+	  {
+		"name": "Variables",
+		"scope": ["variable", "source.python"],
+		"settings": {
+		  "foreground": "#ffffff" // Amarillo, puedes ajustar el color según tus preferencias
+		}
+	  },
+	  {
+		"name": "class",
+		"scope":["entity.name.type.class.python","entity.other.inherited-class.python"],
+		"settings": {
+			"foreground": "#35C4AA",
+		}
+	  },
+	  {
+		"name": "function",
+		"scope":["entity.name.function.python","meta.function-call.generic.python"],
+		"settings": {
+			"foreground": "#C1D326",
+		}
+	  },
+	  {
+		"name": "attribute",
+		"scope":["meta.attribute.python"],
+		"settings": {
+			"foreground": "#D3A626",
+		}
+	  },
+	  {
+		"name": "constant",
+		"scope":["constant.language.python"],
+		"settings": {
+			"foreground": "#DE8300",
+		}
+	  },
+	  {
+		"name": "constans-character",
+		"scope":["constant.character.escape.python"],
+		"settings": {
+			"foreground": "#DD5522",
 		}
 	  }
+
 	],
 
 
